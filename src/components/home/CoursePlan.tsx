@@ -9,7 +9,8 @@ import {
   TrendingUp, 
   BarChart3, 
   Award,
-  ChevronRight
+  ChevronRight,
+  Target
 } from 'lucide-react';
 
 interface CourseSection {
@@ -247,8 +248,9 @@ export default function CoursePlan() {
       >
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div>
-            <h3 className="text-lg font-bold text-gray-900 mb-1">
-              🎯 Votre progression
+            <h3 className="text-lg font-bold text-gray-900 mb-1 flex items-center gap-2">
+              <Target className="h-5 w-5 text-blue-600" />
+              Votre progression
             </h3>
             <p className="text-gray-600 text-sm">
               Complétez tous les modules pour obtenir votre certification

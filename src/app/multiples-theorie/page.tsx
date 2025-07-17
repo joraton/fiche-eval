@@ -385,7 +385,10 @@ export default function MultiplesTheoriePage() {
             
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h3 className="text-xl font-semibold text-green-600 mb-4">✅ Avantages</h3>
+                <h3 className="text-xl font-semibold text-green-600 mb-4 flex items-center gap-2">
+                  <CheckCircle className="h-5 w-5" />
+                  Avantages
+                </h3>
                 <div className="space-y-3">
                   <div className="flex items-start gap-3">
                     <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0 mt-1" />
@@ -422,7 +425,10 @@ export default function MultiplesTheoriePage() {
               </div>
               
               <div>
-                <h3 className="text-xl font-semibold text-red-600 mb-4">❌ Limites</h3>
+                <h3 className="text-xl font-semibold text-red-600 mb-4 flex items-center gap-2">
+                  <AlertTriangle className="h-5 w-5" />
+                  Limites
+                </h3>
                 <div className="space-y-3">
                   <div className="flex items-start gap-3">
                     <AlertTriangle className="h-5 w-5 text-red-600 flex-shrink-0 mt-1" />

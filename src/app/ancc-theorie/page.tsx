@@ -184,7 +184,10 @@ export default function ANNCTheoriePage() {
                   <div className="bg-red-100 p-2 rounded-full">
                     <AlertTriangle className="h-5 w-5 text-red-600" />
                   </div>
-                  <h3 className="text-xl font-semibold text-gray-900">2A. Éliminer les Actifs Fictifs ❌</h3>
+                  <h3 className="text-xl font-semibold text-gray-900 flex items-center gap-2">
+                    2A. Éliminer les Actifs Fictifs
+                    <AlertTriangle className="h-5 w-5 text-red-600" />
+                  </h3>
                 </div>
                 <p className="text-gray-700 mb-4 ml-8">
                   <strong>Définition :</strong> Éléments inscrits à l&apos;actif mais sans valeur de revente ou d&apos;utilité économique réelle
@@ -210,7 +213,10 @@ export default function ANNCTheoriePage() {
                   <div className="bg-green-100 p-2 rounded-full">
                     <CheckCircle className="h-5 w-5 text-green-600" />
                   </div>
-                  <h3 className="text-xl font-semibold text-gray-900">2B. Intégrer les Éléments Hors-Bilan ➕</h3>
+                  <h3 className="text-xl font-semibold text-gray-900 flex items-center gap-2">
+                    2B. Intégrer les Éléments Hors-Bilan
+                    <CheckCircle className="h-5 w-5 text-green-600" />
+                  </h3>
                 </div>
                 <p className="text-gray-700 mb-4 ml-8">
                   <strong>Principe :</strong> Ajouter des biens/dettes non inscrits au bilan mais ayant une valeur ou coût économique
@@ -246,7 +252,10 @@ export default function ANNCTheoriePage() {
                   <div className="bg-purple-100 p-2 rounded-full">
                     <TrendingUp className="h-5 w-5 text-purple-600" />
                   </div>
-                  <h3 className="text-xl font-semibold text-gray-900">2C. Réévaluer à la Valeur de Marché 📈📉</h3>
+                  <h3 className="text-xl font-semibold text-gray-900 flex items-center gap-2">
+                    2C. Réévaluer à la Valeur de Marché
+                    <TrendingUp className="h-5 w-5 text-purple-600" />
+                  </h3>
                 </div>
                 <p className="text-gray-700 mb-4 ml-8">
                   <strong>Objectif :</strong> Remplacer valeurs comptables par valeurs économiques actuelles
@@ -286,7 +295,10 @@ export default function ANNCTheoriePage() {
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Quand Utiliser l&apos;ANCC ?</h2>
               
               <div className="mb-6">
-                <h3 className="text-lg font-semibold text-emerald-600 mb-3">✅ Secteurs Privilégiés</h3>
+                <h3 className="text-lg font-semibold text-emerald-600 mb-3 flex items-center gap-2">
+                  <CheckCircle className="h-5 w-5" />
+                  Secteurs Privilégiés
+                </h3>
                 <div className="space-y-3">
                   {secteursPrivilegies.map((secteur, index) => (
                     <div key={index} className="flex items-center gap-3">
@@ -301,7 +313,10 @@ export default function ANNCTheoriePage() {
               </div>
               
               <div>
-                <h3 className="text-lg font-semibold text-emerald-600 mb-3">✅ Avantages</h3>
+                <h3 className="text-lg font-semibold text-emerald-600 mb-3 flex items-center gap-2">
+                  <CheckCircle className="h-5 w-5" />
+                  Avantages
+                </h3>
                 <ul className="space-y-2">
                   {avantages.map((avantage, index) => (
                     <li key={index} className="flex items-start gap-2">
@@ -317,7 +332,10 @@ export default function ANNCTheoriePage() {
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Limites et Précautions</h2>
               
               <div className="mb-6">
-                <h3 className="text-lg font-semibold text-red-600 mb-3">❌ Limites</h3>
+                <h3 className="text-lg font-semibold text-red-600 mb-3 flex items-center gap-2">
+                  <AlertTriangle className="h-5 w-5" />
+                  Limites
+                </h3>
                 <ul className="space-y-2">
                   {limites.map((limite, index) => (
                     <li key={index} className="flex items-start gap-2">

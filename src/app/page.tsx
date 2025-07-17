@@ -1,5 +1,6 @@
 import CourseHeader from '@/components/home/CourseHeader';
 import CoursePlan from '@/components/home/CoursePlan';
+import { Lightbulb, BookOpen, Target, Trophy, Zap } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -23,14 +24,27 @@ export default function Home() {
         {/* Footer */}
         <footer className="mt-12 pt-6 border-t border-gray-200/50 text-center">
           <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-4 shadow-lg">
-            <p className="text-gray-600 mb-3 text-sm">
-              💡 <strong>Formation professionnelle</strong> - Développez vos compétences en évaluation d&apos;entreprise
+            <p className="text-gray-600 mb-3 text-sm flex items-center justify-center gap-2">
+              <Lightbulb className="h-4 w-4 text-yellow-500" />
+              <strong>Formation professionnelle</strong> - Développez vos compétences en évaluation d&apos;entreprise
             </p>
             <div className="flex flex-wrap justify-center gap-3 text-xs text-gray-500">
-              <span>📚 Contenu expert</span>
-              <span>🎯 Cas pratiques</span>
-              <span>🏆 Certification</span>
-              <span>⚡ Accès immédiat</span>
+              <span className="flex items-center gap-1">
+                <BookOpen className="h-3 w-3" />
+                Contenu expert
+              </span>
+              <span className="flex items-center gap-1">
+                <Target className="h-3 w-3" />
+                Cas pratiques
+              </span>
+              <span className="flex items-center gap-1">
+                <Trophy className="h-3 w-3" />
+                Certification
+              </span>
+              <span className="flex items-center gap-1">
+                <Zap className="h-3 w-3" />
+                Accès immédiat
+              </span>
             </div>
           </div>
         </footer>
