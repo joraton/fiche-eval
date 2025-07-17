@@ -24,7 +24,7 @@ export default function Home() {
         <footer className="mt-12 pt-6 border-t border-gray-200/50 text-center">
           <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-4 shadow-lg">
             <p className="text-gray-600 mb-3 text-sm">
-              💡 <strong>Formation professionnelle</strong> - Développez vos compétences en évaluation d'entreprise
+              💡 <strong>Formation professionnelle</strong> - Développez vos compétences en évaluation d&apos;entreprise
             </p>
             <div className="flex flex-wrap justify-center gap-3 text-xs text-gray-500">
               <span>📚 Contenu expert</span>

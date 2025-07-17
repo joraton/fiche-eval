@@ -89,8 +89,8 @@ export default function ANNCTable({
                 >
                   {headers.map((header, cellIndex) => {
                     const cellValue = row[header];
-                    const isNumeric = typeof cellValue === 'number' || 
-                                    (typeof cellValue === 'string' && /^[+-]?\d+/.test(cellValue));
+                    const isNumeric = typeof cellValue === 'number' ||
+      (typeof cellValue === 'string' && /^[+-]?\d+/.test(cellValue));
                     
                     return (
                       <td 
@@ -172,7 +172,7 @@ export function ANNCCalculationTable({
                 <td className="px-4 py-3 text-sm text-right font-mono font-semibold">
                   <span className={`
                     ${typeof calc.amount === 'string' && calc.amount.startsWith('+') ? 'text-green-600' : ''}
-                    ${typeof calc.amount === 'string' && calc.amount.startsWith('-') ? 'text-red-600' : ''}
+        ${typeof calc.amount === 'string' && calc.amount.startsWith('-') ? 'text-red-600' : ''}
                   `}>
                     {calc.amount}
                   </span>

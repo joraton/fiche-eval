@@ -3,7 +3,7 @@
 import BackToPlanButton from '@/components/content/BackToPlanButton';
 import SectionNavigation from '@/components/content/SectionNavigation';
 import { motion } from 'framer-motion';
-import { TrendingUp, Target, Calculator, BarChart3, Users, Globe, CheckCircle, AlertTriangle, Lightbulb, ArrowRight, Building2 } from 'lucide-react';
+import { TrendingUp, Target, Calculator, BarChart3, Users, CheckCircle, AlertTriangle, Lightbulb, ArrowRight, Building2 } from 'lucide-react';
 
 const secteurMultiples = [
   { 'Secteur': 'Technologie', 'Multiples privilégiés': 'VE/CA, P/E', 'Fourchettes typiques': 'VE/CA: 3-8x, P/E: 15-30x' },
@@ -56,7 +56,7 @@ export default function MultiplesTheoriePage() {
                 Méthode des Multiples - Théorie
               </h1>
               <p className="text-gray-600 text-lg">
-                Approche comparative pour l'évaluation d'entreprise
+                Approche comparative pour l&apos;évaluation d&apos;entreprise
               </p>
             </div>
           </div>
@@ -77,21 +77,21 @@ export default function MultiplesTheoriePage() {
             
             <div className="space-y-6">
               <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">Qu'est-ce que la Méthode des Multiples ?</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">Qu&apos;est-ce que la Méthode des Multiples ?</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  La <strong>méthode des multiples</strong> (ou approche comparative) évalue une entreprise en la comparant à des entreprises similaires (comparables) cotées en bourse ou ayant fait l'objet de transactions récentes.
+                  La <strong>méthode des multiples</strong> (ou approche comparative) évalue une entreprise en la comparant à des entreprises similaires (comparables) cotées en bourse ou ayant fait l&apos;objet de transactions récentes.
                 </p>
               </div>
               
               <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg">
                 <h4 className="font-semibold text-blue-900 mb-2">Principe Fondamental</h4>
                 <p className="text-blue-800 mb-3">
-                  <strong>Hypothèse de base :</strong> À un instant T, des entreprises similaires doivent avoir des valorisations similaires par rapport à leurs agrégats financiers (chiffre d'affaires, EBITDA, résultat net...).
+                  <strong>Hypothèse de base :</strong> À un instant T, des entreprises similaires doivent avoir des valorisations similaires par rapport à leurs agrégats financiers (chiffre d&apos;affaires, EBITDA, résultat net...).
                 </p>
                 <div className="bg-white p-4 rounded-lg border border-blue-200">
                   <p className="text-sm text-gray-700 font-mono">
                     Si Entreprise A = 10x EBITDA et Entreprise B (similaire) = 12x EBITDA<br/>
-                    → L'une est sous-évaluée ou l'autre est surévaluée<br/>
+                    → L&apos;une est sous-évaluée ou l&apos;autre est surévaluée<br/>
                     → Le marché devrait corriger cet écart
                   </p>
                 </div>
@@ -115,13 +115,13 @@ export default function MultiplesTheoriePage() {
             
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">1. Identification de l'Entreprise Cible</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-4">1. Identification de l&apos;Entreprise Cible</h3>
                 <div className="space-y-3">
-                  <p className="text-gray-700">Collecter les agrégats financiers de l'entreprise à valoriser :</p>
+                  <p className="text-gray-700">Collecter les agrégats financiers de l&apos;entreprise à valoriser :</p>
                   <ul className="text-sm text-gray-600 space-y-1 ml-4">
-                    <li>• Chiffre d'affaires (CA)</li>
+                    <li>• Chiffre d&apos;affaires (CA)</li>
                     <li>• EBITDA (Earnings Before Interest, Taxes, Depreciation, Amortization)</li>
-                    <li>• EBIT (Résultat d'exploitation)</li>
+                    <li>• EBIT (Résultat d&apos;exploitation)</li>
                     <li>• Résultat net</li>
                     <li>• Capitaux propres (fonds propres)</li>
                     <li>• Dette nette</li>
@@ -130,7 +130,7 @@ export default function MultiplesTheoriePage() {
               </div>
               
               <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">2. Sources d'Information</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-4">2. Sources d&apos;Information</h3>
                 <div className="space-y-3">
                   <ul className="text-sm text-gray-600 space-y-2">
                     <li className="flex items-center gap-2">
@@ -166,7 +166,7 @@ export default function MultiplesTheoriePage() {
               <div className="bg-orange-100 p-3 rounded-xl">
                 <Users className="h-8 w-8 text-orange-600" />
               </div>
-              <h2 className="text-3xl font-bold text-gray-900">Sélection de l'Échantillon de Comparables</h2>
+              <h2 className="text-3xl font-bold text-gray-900">Sélection de l&apos;Échantillon de Comparables</h2>
             </div>
             
             <div className="overflow-x-auto">
@@ -207,8 +207,8 @@ export default function MultiplesTheoriePage() {
             
             <div className="grid lg:grid-cols-2 gap-8">
               <div>
-                <h3 className="text-xl font-semibold text-indigo-600 mb-4">A. Multiples d'Equity (Capitaux Propres)</h3>
-                <p className="text-gray-600 mb-4">Basés sur la <strong>capitalisation boursière</strong> de l'entreprise.</p>
+                <h3 className="text-xl font-semibold text-indigo-600 mb-4">A. Multiples d&apos;Equity (Capitaux Propres)</h3>
+                <p className="text-gray-600 mb-4">Basés sur la <strong>capitalisation boursière</strong> de l&apos;entreprise.</p>
                 <div className="overflow-x-auto">
                   <table className="w-full border-collapse">
                     <thead>
@@ -232,8 +232,8 @@ export default function MultiplesTheoriePage() {
               </div>
               
               <div>
-                <h3 className="text-xl font-semibold text-purple-600 mb-4">B. Multiples d'Entreprise (Enterprise Value)</h3>
-                <p className="text-gray-600 mb-4">Basés sur la <strong>valeur d'entreprise</strong> (VE = Capitalisation + Dette Nette).</p>
+                <h3 className="text-xl font-semibold text-purple-600 mb-4">B. Multiples d&apos;Entreprise (Enterprise Value)</h3>
+                <p className="text-gray-600 mb-4">Basés sur la <strong>valeur d&apos;entreprise</strong> (VE = Capitalisation + Dette Nette).</p>
                 <div className="overflow-x-auto">
                   <table className="w-full border-collapse">
                     <thead>
@@ -390,7 +390,7 @@ export default function MultiplesTheoriePage() {
                   <div className="flex items-start gap-3">
                     <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0 mt-1" />
                     <div>
-                      <h4 className="font-semibold text-gray-900">Rapidité d'exécution</h4>
+                      <h4 className="font-semibold text-gray-900">Rapidité d&apos;exécution</h4>
                       <p className="text-gray-700 text-sm">Résultats en quelques heures</p>
                     </div>
                   </div>
@@ -415,7 +415,7 @@ export default function MultiplesTheoriePage() {
                     <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0 mt-1" />
                     <div>
                       <h4 className="font-semibold text-gray-900">Benchmarking</h4>
-                      <p className="text-gray-700 text-sm">Permet de positionner l'entreprise vs concurrents</p>
+                      <p className="text-gray-700 text-sm">Permet de positionner l&apos;entreprise vs concurrents</p>
                     </div>
                   </div>
                 </div>
@@ -428,7 +428,7 @@ export default function MultiplesTheoriePage() {
                     <AlertTriangle className="h-5 w-5 text-red-600 flex-shrink-0 mt-1" />
                     <div>
                       <h4 className="font-semibold text-gray-900">Qualité des comparables</h4>
-                      <p className="text-gray-700 text-sm">Difficile de trouver des "vrais jumeaux"</p>
+                      <p className="text-gray-700 text-sm">Difficile de trouver des &quot;vrais jumeaux&quot;</p>
                     </div>
                   </div>
                   
@@ -471,7 +471,7 @@ export default function MultiplesTheoriePage() {
             
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h3 className="text-xl font-semibold text-purple-600 mb-4">Constituer l'Échantillon</h3>
+                <h3 className="text-xl font-semibold text-purple-600 mb-4">Constituer l&apos;Échantillon</h3>
                 <div className="space-y-3">
                   <div className="flex items-start gap-3">
                     <ArrowRight className="h-5 w-5 text-purple-600 flex-shrink-0 mt-1" />
@@ -505,7 +505,7 @@ export default function MultiplesTheoriePage() {
                   </div>
                   <div className="flex items-start gap-3">
                     <ArrowRight className="h-5 w-5 text-blue-600 flex-shrink-0 mt-1" />
-                    <p className="text-gray-700 text-sm"><strong>Présenter une fourchette</strong> plutôt qu'une valeur unique</p>
+                    <p className="text-gray-700 text-sm"><strong>Présenter une fourchette</strong> plutôt qu&apos;une valeur unique</p>
                   </div>
                   <div className="flex items-start gap-3">
                     <ArrowRight className="h-5 w-5 text-blue-600 flex-shrink-0 mt-1" />

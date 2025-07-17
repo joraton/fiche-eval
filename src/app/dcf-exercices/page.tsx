@@ -3,14 +3,14 @@
 import { useState } from 'react';
 import BackToPlanButton from '@/components/content/BackToPlanButton';
 import { motion } from 'framer-motion';
-import { Calculator, TrendingUp, DollarSign, BarChart3, Target, AlertTriangle, Lightbulb, CheckCircle, ArrowRight, Eye, EyeOff, Building, Zap, Users, Globe, PieChart, Activity } from 'lucide-react';
+import { Calculator, BarChart3, Target, CheckCircle, ArrowRight, Eye, EyeOff, Building, Zap, Globe } from 'lucide-react';
 import SectionNavigation from '@/components/content/SectionNavigation';
 
-const sections = [
-  { id: 'exercice1', title: 'Exercice 1: GreenTech Industries' },
-  { id: 'exercice2', title: 'Exercice 2: Luxe & Services SAS' },
-  { id: 'points-cles', title: 'Points Clés d\'Apprentissage' }
-];
+// const sections = [
+//   { id: 'exercice1', title: 'Exercice 1: GreenTech Industries' },
+//   { id: 'exercice2', title: 'Exercice 2: Luxe & Services SAS' },
+//   { id: 'points-cles', title: 'Points Clés d&apos;Apprentissage' }
+// ];
 
 export default function DCFExercicesPage() {
   const [showCorrection1, setShowCorrection1] = useState(false);
@@ -31,7 +31,7 @@ export default function DCFExercicesPage() {
             <h1 className="text-3xl font-bold text-gray-900">DCF - Exercices Pratiques</h1>
           </div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Appliquez la méthode DCF sur des cas concrets d'entreprises
+            Appliquez la méthode DCF sur des cas concrets d&apos;entreprises
           </p>
         </motion.div>
 
@@ -55,10 +55,10 @@ export default function DCFExercicesPage() {
           <div className="space-y-6">
             {/* Contexte */}
             <div className="bg-green-50 rounded-xl p-6">
-              <h3 className="text-lg font-semibold text-green-800 mb-4">Contexte de l'entreprise</h3>
+              <h3 className="text-lg font-semibold text-green-800 mb-4">Contexte de l&apos;entreprise</h3>
               <p className="text-gray-700 mb-4">
-                GreenTech Industries SA est une entreprise française spécialisée dans les solutions d'énergie renouvelable 
-                (panneaux solaires, éoliennes domestiques). L'entreprise connaît une forte croissance depuis 5 ans.
+                GreenTech Industries SA est une entreprise française spécialisée dans les solutions d&apos;énergie renouvelable 
+                (panneaux solaires, éoliennes domestiques). L&apos;entreprise connaît une forte croissance depuis 5 ans.
               </p>
               
               <div className="grid md:grid-cols-2 gap-6">
@@ -89,7 +89,7 @@ export default function DCFExercicesPage() {
                   <h4 className="font-semibold text-gray-900 mb-3">Informations Complémentaires</h4>
                   <div className="bg-white rounded-lg p-4 space-y-2 text-sm">
                     <div className="flex justify-between"><span>BFR/CA:</span><span>12%</span></div>
-                    <div className="flex justify-between"><span>Taux d'impôt:</span><span>25%</span></div>
+                    <div className="flex justify-between"><span>Taux d&apos;impôt:</span><span>25%</span></div>
                     <div className="flex justify-between"><span>Dette nette:</span><span>18 M€</span></div>
                     <div className="flex justify-between"><span>Bêta:</span><span>1.3</span></div>
                     <div className="flex justify-between"><span>Taux sans risque:</span><span>2.5%</span></div>
@@ -133,7 +133,7 @@ export default function DCFExercicesPage() {
               <ol className="space-y-3 text-sm">
                 <li className="flex gap-3">
                   <span className="bg-red-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-xs font-bold flex-shrink-0">1</span>
-                  <span>Établissez les prévisions de chiffre d'affaires et d'EBITDA pour 2024-2028</span>
+                  <span>Établissez les prévisions de chiffre d&apos;affaires et d&apos;EBITDA pour 2024-2028</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="bg-red-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-xs font-bold flex-shrink-0">2</span>
@@ -141,7 +141,7 @@ export default function DCFExercicesPage() {
                 </li>
                 <li className="flex gap-3">
                   <span className="bg-red-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-xs font-bold flex-shrink-0">3</span>
-                  <span>Déterminez le WACC de l'entreprise</span>
+                  <span>Déterminez le WACC de l&apos;entreprise</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="bg-red-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-xs font-bold flex-shrink-0">4</span>
@@ -149,7 +149,7 @@ export default function DCFExercicesPage() {
                 </li>
                 <li className="flex gap-3">
                   <span className="bg-red-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-xs font-bold flex-shrink-0">5</span>
-                  <span>Déterminez la valeur des fonds propres et la valeur par action (1M d'actions)</span>
+                  <span>Déterminez la valeur des fonds propres et la valeur par action (1M d&apos;actions)</span>
                 </li>
               </ol>
             </div>
@@ -281,7 +281,7 @@ export default function DCFExercicesPage() {
                           <tr><td>FCF 2027</td><td className="text-right">6.4</td><td className="text-right">4.7</td></tr>
                           <tr><td>FCF 2028</td><td className="text-right">6.9</td><td className="text-right">4.7</td></tr>
                           <tr><td>Valeur terminale</td><td className="text-right">126.8</td><td className="text-right">86.4</td></tr>
-                          <tr className="border-t font-bold"><td>Valeur d'entreprise</td><td className="text-right">-</td><td className="text-right">107.2</td></tr>
+                          <tr className="border-t font-bold"><td>Valeur d&apos;entreprise</td><td className="text-right">-</td><td className="text-right">107.2</td></tr>
                           <tr><td>- Dette nette</td><td className="text-right">-</td><td className="text-right">-18.0</td></tr>
                           <tr className="border-t font-bold"><td>Valeur des fonds propres</td><td className="text-right">-</td><td className="text-right">89.2</td></tr>
                           <tr className="font-bold text-green-600"><td>Valeur par action</td><td className="text-right">-</td><td className="text-right">89.2€</td></tr>
@@ -313,10 +313,10 @@ export default function DCFExercicesPage() {
           <div className="space-y-6">
             {/* Contexte */}
             <div className="bg-purple-50 rounded-xl p-6">
-              <h3 className="text-lg font-semibold text-purple-800 mb-4">Contexte de l'entreprise</h3>
+              <h3 className="text-lg font-semibold text-purple-800 mb-4">Contexte de l&apos;entreprise</h3>
               <p className="text-gray-700 mb-4">
                 Luxe & Services SAS est une chaîne de magasins haut de gamme spécialisée dans la maroquinerie et 
-                les accessoires de luxe. L'entreprise dispose de 15 boutiques en France et envisage une expansion européenne.
+                les accessoires de luxe. L&apos;entreprise dispose de 15 boutiques en France et envisage une expansion européenne.
               </p>
               
               <div className="grid md:grid-cols-2 gap-6">
@@ -347,7 +347,7 @@ export default function DCFExercicesPage() {
                   <h4 className="font-semibold text-gray-900 mb-3">Informations Sectorielles</h4>
                   <div className="bg-white rounded-lg p-4 space-y-2 text-sm">
                     <div className="flex justify-between"><span>BFR/CA:</span><span>18%</span></div>
-                    <div className="flex justify-between"><span>Taux d'impôt:</span><span>25%</span></div>
+                    <div className="flex justify-between"><span>Taux d&apos;impôt:</span><span>25%</span></div>
                     <div className="flex justify-between"><span>Dette nette:</span><span>8 M€</span></div>
                     <div className="flex justify-between"><span>Bêta sectoriel:</span><span>1.1</span></div>
                     <div className="flex justify-between"><span>Taux sans risque:</span><span>2.5%</span></div>
@@ -358,9 +358,9 @@ export default function DCFExercicesPage() {
               </div>
             </div>
 
-            {/* Plan d'expansion */}
+            {/* Plan d&apos;expansion */}
             <div className="bg-blue-50 rounded-xl p-6">
-              <h3 className="text-lg font-semibold text-blue-800 mb-4">Plan d'Expansion 2024-2028</h3>
+              <h3 className="text-lg font-semibold text-blue-800 mb-4">Plan d&apos;Expansion 2024-2028</h3>
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-3">Stratégie de Croissance</h4>
@@ -392,7 +392,7 @@ export default function DCFExercicesPage() {
               <ol className="space-y-3 text-sm">
                 <li className="flex gap-3">
                   <span className="bg-purple-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-xs font-bold flex-shrink-0">1</span>
-                  <span>Modélisez l'évolution du chiffre d'affaires et de la marge EBITDA</span>
+                  <span>Modélisez l&apos;évolution du chiffre d&apos;affaires et de la marge EBITDA</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="bg-purple-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-xs font-bold flex-shrink-0">2</span>
@@ -400,7 +400,7 @@ export default function DCFExercicesPage() {
                 </li>
                 <li className="flex gap-3">
                   <span className="bg-purple-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-xs font-bold flex-shrink-0">3</span>
-                  <span>Déterminez les Free Cash Flows en tenant compte de l'évolution du BFR</span>
+                  <span>Déterminez les Free Cash Flows en tenant compte de l&apos;évolution du BFR</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="bg-purple-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-xs font-bold flex-shrink-0">4</span>
@@ -408,7 +408,7 @@ export default function DCFExercicesPage() {
                 </li>
                 <li className="flex gap-3">
                   <span className="bg-purple-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-xs font-bold flex-shrink-0">5</span>
-                  <span>Évaluez l'entreprise et analysez l'impact de l'expansion sur la valeur</span>
+                  <span>Évaluez l&apos;entreprise et analysez l&apos;impact de l&apos;expansion sur la valeur</span>
                 </li>
               </ol>
             </div>
@@ -465,7 +465,7 @@ export default function DCFExercicesPage() {
 
                   {/* Investissements */}
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-3">2. Plan d'Investissements</h4>
+                    <h4 className="font-semibold text-gray-900 mb-3">2. Plan d&apos;Investissements</h4>
                     <div className="bg-white rounded-lg p-4">
                       <table className="w-full text-sm">
                         <thead>
@@ -549,7 +549,7 @@ export default function DCFExercicesPage() {
                           </div>
                         </div>
                         <div>
-                          <div className="font-medium mb-2">Valeur d'entreprise:</div>
+                          <div className="font-medium mb-2">Valeur d&apos;entreprise:</div>
                           <div className="space-y-1">
                             <div>VP des FCF = 2.8 M€</div>
                             <div>VP de la VT = 81.4 M€</div>
@@ -564,9 +564,9 @@ export default function DCFExercicesPage() {
                   </div>
 
                   <div className="bg-yellow-50 rounded-lg p-4">
-                    <h5 className="font-semibold text-yellow-800 mb-2">Analyse de l'Impact de l'Expansion</h5>
+                    <h5 className="font-semibold text-yellow-800 mb-2">Analyse de l&apos;Impact de l&apos;Expansion</h5>
                     <p className="text-sm text-gray-700">
-                      L'expansion génère des FCF négatifs les premières années mais améliore significativement 
+                      L&apos;expansion génère des FCF négatifs les premières années mais améliore significativement 
                       la rentabilité à partir de 2027. La valeur terminale bénéficie de la base de revenus élargie 
                       et des marges améliorées.
                     </p>
@@ -577,7 +577,7 @@ export default function DCFExercicesPage() {
           </div>
         </motion.section>
 
-        {/* Points Clés d'Apprentissage */}
+        {/* Points Clés d&apos;Apprentissage */}
         <motion.section
           id="points-cles"
           initial={{ opacity: 0, y: 20 }}
@@ -587,9 +587,9 @@ export default function DCFExercicesPage() {
         >
           <div className="flex items-center gap-3 mb-6">
             <div className="p-3 bg-red-100 rounded-full">
-              <Lightbulb className="h-6 w-6 text-red-600" />
+              <BarChart3 className="h-6 w-6 text-red-600" />
             </div>
-            <h2 className="text-2xl font-bold text-gray-900">Points Clés d'Apprentissage</h2>
+            <h2 className="text-2xl font-bold text-gray-900">Points Clés d&apos;Apprentissage</h2>
           </div>
 
           <div className="grid md:grid-cols-2 gap-6">
@@ -619,7 +619,7 @@ export default function DCFExercicesPage() {
                 icon: Globe,
                 points: [
                   'Adaptation aux spécificités sectorielles',
-                  'Prise en compte des cycles d\'investissement',
+                  'Prise en compte des cycles d&apos;investissement',
                   'Impact de la saisonnalité sur le BFR',
                   'Stratégies de croissance et leur financement'
                 ]

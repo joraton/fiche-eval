@@ -134,8 +134,8 @@ export default function ANNCTheoriePage() {
                 <div className="bg-emerald-50 border-l-4 border-emerald-500 p-4 rounded-r-lg">
                   <h4 className="font-semibold text-emerald-900 mb-2">Question centrale</h4>
                   <p className="text-emerald-800 italic">
-                    "Si je devais reconstituer l&apos;outil de production aujourd&apos;hui ou vendre tous les actifs 
-                    au meilleur prix, quelle serait la valeur nette après avoir payé toutes les dettes ?"
+                    &quot;Si je devais reconstituer l&apos;outil de production aujourd&apos;hui ou vendre tous les actifs 
+                    au meilleur prix, quelle serait la valeur nette après avoir payé toutes les dettes ?&quot;
                   </p>
                 </div>
               </div>

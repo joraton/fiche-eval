@@ -17,7 +17,7 @@ interface Question {
 const questions: Question[] = [
   {
     id: 1,
-    question: "Quelle est la formule de base de l'ANCC ?",
+    question: "Quelle est la formule de base de l&apos;ANCC ?",
     options: [
       "ANCC = ANC + Corrections positives - Corrections négatives",
       "ANCC = ANC + Corrections positives - Corrections négatives - Impôt latent",
@@ -25,35 +25,35 @@ const questions: Question[] = [
       "ANCC = Total Actif - Total Passif + Corrections"
     ],
     correctAnswer: 1,
-    explanation: "La formule complète de l'ANCC inclut l'impôt latent qui doit être déduit des plus-values nettes."
+    explanation: "La formule complète de l&apos;ANCC inclut l&apos;impôt latent qui doit être déduit des plus-values nettes."
   },
   {
     id: 2,
     question: "Parmi ces éléments, lequel est considéré comme un actif fictif à éliminer ?",
     options: [
       "Un immeuble de bureaux",
-      "Des frais d'établissement",
+      "Des frais d&apos;établissement",
       "Des stocks de matières premières",
       "Des créances clients"
     ],
     correctAnswer: 1,
-    explanation: "Les frais d'établissement sont des actifs fictifs car ils n'ont aucune valeur de revente ou d'utilité économique réelle."
+    explanation: "Les frais d&apos;établissement sont des actifs fictifs car ils n&apos;ont aucune valeur de revente ou d&apos;utilité économique réelle."
   },
   {
     id: 3,
-    question: "Dans le cadre d'un crédit-bail, quel est l'impact sur l'ANCC ?",
+    question: "Dans le cadre d&apos;un crédit-bail, quel est l&apos;impact sur l&apos;ANCC ?",
     options: [
       "Aucun impact car c'est hors-bilan",
-      "Seulement l'ajout de l'actif",
+      "Seulement l&apos;ajout de l&apos;actif",
       "Seulement l'ajout de la dette",
-      "Ajout de l'actif (valeur du bien) et de la dette (montant restant dû)"
+      "Ajout de l&apos;actif (valeur du bien) et de la dette (montant restant dû)"
     ],
     correctAnswer: 3,
-    explanation: "Le crédit-bail doit être retraité en ajoutant l'actif (valeur actuelle du bien) et la dette correspondante (montant restant dû)."
+    explanation: "Le crédit-bail doit être retraité en ajoutant l&apos;actif (valeur actuelle du bien) et la dette correspondante (montant restant dû)."
   },
   {
     id: 4,
-    question: "Quel est le taux d'impôt latent généralement appliqué en France ?",
+    question: "Quel est le taux d&apos;impôt latent généralement appliqué en France ?",
     options: [
       "15%",
       "20%",
@@ -61,11 +61,11 @@ const questions: Question[] = [
       "33%"
     ],
     correctAnswer: 2,
-    explanation: "Le taux d'impôt sur les sociétés en France est de 25% pour les plus-values, c'est donc ce taux qui s'applique pour l'impôt latent."
+    explanation: "Le taux d&apos;impôt sur les sociétés en France est de 25% pour les plus-values, c&apos;est donc ce taux qui s&apos;applique pour l&apos;impôt latent."
   },
   {
     id: 5,
-    question: "Pour quel type d'entreprise l'ANCC est-elle particulièrement adaptée ?",
+    question: "Pour quel type d&apos;entreprise l&apos;ANCC est-elle particulièrement adaptée ?",
     options: [
       "Entreprise de services informatiques",
       "Start-up technologique",
@@ -73,47 +73,47 @@ const questions: Question[] = [
       "Entreprise de conseil"
     ],
     correctAnswer: 2,
-    explanation: "L'ANCC est particulièrement adaptée aux holdings immobiliers car elle valorise le patrimoine, contrairement aux entreprises de services qui ont peu d'actifs tangibles."
+    explanation: "L&apos;ANCC est particulièrement adaptée aux holdings immobiliers car elle valorise le patrimoine, contrairement aux entreprises de services qui ont peu d&apos;actifs tangibles."
   },
   {
     id: 6,
-    question: "Que représente l'ANC dans le calcul de l'ANCC ?",
+    question: "Que représente l&apos;ANC dans le calcul de l&apos;ANCC ?",
     options: [
-      "L'actif total de l'entreprise",
+      "L&apos;actif total de l&apos;entreprise",
       "Les capitaux propres comptables",
       "La valeur de marché des actifs",
-      "Le chiffre d'affaires annuel"
+      "Le chiffre d&apos;affaires annuel"
     ],
     correctAnswer: 1,
-    explanation: "L'ANC (Actif Net Comptable) correspond aux capitaux propres comptables, soit la différence entre l'actif total et les dettes."
+    explanation: "L&apos;ANC (Actif Net Comptable) correspond aux capitaux propres comptables, soit la différence entre l&apos;actif total et les dettes."
   },
   {
     id: 7,
     question: "Quelle est la principale limite de la méthode ANCC ?",
     options: [
       "Elle est trop complexe à calculer",
-      "Elle ignore la rentabilité future de l'entreprise",
+      "Elle ignore la rentabilité future de l&apos;entreprise",
       "Elle surestime la valeur des actifs",
       "Elle ne prend pas en compte les dettes"
     ],
     correctAnswer: 1,
-    explanation: "La principale limite de l'ANCC est qu'elle ignore la rentabilité future et le potentiel de croissance, se concentrant uniquement sur la valeur patrimoniale."
+    explanation: "La principale limite de l&apos;ANCC est qu&apos;elle ignore la rentabilité future et le potentiel de croissance, se concentrant uniquement sur la valeur patrimoniale."
   },
   {
     id: 8,
-    question: "Comment doit-on traiter une provision pour litiges qui s'avère surévaluée ?",
+    question: "Comment doit-on traiter une provision pour litiges qui s&apos;avère surévaluée ?",
     options: [
       "La maintenir par prudence",
       "La reprendre partiellement",
-      "L'ajuster à sa juste valeur",
-      "L'ignorer dans le calcul"
+      "L&apos;ajuster à sa juste valeur",
+      "L&apos;ignorer dans le calcul"
     ],
     correctAnswer: 2,
-    explanation: "Une provision surévaluée doit être ajustée à sa juste valeur économique, ce qui constitue une correction positive dans le calcul de l'ANCC."
+    explanation: "Une provision surévaluée doit être ajustée à sa juste valeur économique, ce qui constitue une correction positive dans le calcul de l&apos;ANCC."
   },
   {
     id: 9,
-    question: "Dans l'exemple du holding immobilier, quel était l'écart entre l'ANC et l'ANCC ?",
+    question: "Dans l&apos;exemple du holding immobilier, quel était l&apos;écart entre l&apos;ANC et l&apos;ANCC ?",
     options: [
       "+17%",
       "+25%",
@@ -121,13 +121,13 @@ const questions: Question[] = [
       "+55%"
     ],
     correctAnswer: 2,
-    explanation: "Dans l'exemple du holding immobilier, l'ANCC (3 990 K€) représentait un écart de +40% par rapport à l'ANC initial (2 850 K€)."
+    explanation: "Dans l&apos;exemple du holding immobilier, l&apos;ANCC (3 990 K€) représentait un écart de +40% par rapport à l&apos;ANC initial (2 850 K€)."
   },
   {
     id: 10,
-    question: "Quelle approche est recommandée pour une évaluation complète d'entreprise ?",
+    question: "Quelle approche est recommandée pour une évaluation complète d&apos;entreprise ?",
     options: [
-      "Utiliser uniquement l'ANCC",
+      "Utiliser uniquement l&apos;ANCC",
       "Utiliser uniquement la méthode DCF",
       "Combiner ANCC, DCF et Multiples",
       "Utiliser uniquement les multiples de marché"
@@ -141,7 +141,7 @@ export default function QuizPage() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedAnswers, setSelectedAnswers] = useState<number[]>([]);
   const [showResults, setShowResults] = useState(false);
-  const [quizCompleted, setQuizCompleted] = useState(false);
+  const [, setQuizCompleted] = useState(false);
 
   const handleAnswerSelect = (answerIndex: number) => {
     const newAnswers = [...selectedAnswers];
@@ -190,7 +190,7 @@ export default function QuizPage() {
 
   const getScoreMessage = (score: number) => {
     const percentage = (score / questions.length) * 100;
-    if (percentage >= 80) return 'Excellent ! Vous maîtrisez parfaitement l\'ANCC.';
+    if (percentage >= 80) return 'Excellent ! Vous maîtrisez parfaitement l&apos;ANCC.';
     if (percentage >= 60) return 'Bien ! Quelques révisions vous permettront de parfaire vos connaissances.';
     return 'Il est recommandé de revoir le cours théorique avant de continuer.';
   };
@@ -215,7 +215,7 @@ export default function QuizPage() {
                 <Trophy className="h-10 w-10 text-purple-600" />
               </div>
               <h1 className="text-3xl font-bold text-gray-900 mb-2">Quiz Terminé !</h1>
-              <p className="text-gray-600">Voici vos résultats sur l'ANCC</p>
+              <p className="text-gray-600">Voici vos résultats sur l&apos;ANCC</p>
             </div>
             
             <div className="mb-8">
@@ -317,7 +317,7 @@ export default function QuizPage() {
                 Quiz Final - ANCC
               </h1>
               <p className="text-gray-600 text-lg">
-                Évaluez vos connaissances sur l'Actif Net Comptable Corrigé
+                Évaluez vos connaissances sur l&apos;Actif Net Comptable Corrigé
               </p>
             </div>
           </div>

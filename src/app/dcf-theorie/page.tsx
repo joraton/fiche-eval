@@ -5,17 +5,7 @@ import { motion } from 'framer-motion';
 import { Calculator, TrendingUp, DollarSign, BarChart3, Target, AlertTriangle, Lightbulb, CheckCircle, ArrowRight, PieChart, Activity, Zap, Shield, Users, Globe, Building, Briefcase, TrendingDown, Eye, Settings } from 'lucide-react';
 import SectionNavigation from '@/components/content/SectionNavigation';
 
-const sections = [
-  { id: 'definition', title: 'Définition et Principes' },
-  { id: 'methodologie', title: 'Méthodologie' },
-  { id: 'fcf', title: 'Calcul des FCF' },
-  { id: 'wacc', title: 'Calcul du WACC' },
-  { id: 'valeur-terminale', title: 'Valeur Terminale' },
-  { id: 'adaptations', title: 'Adaptations Sectorielles' },
-  { id: 'sensibilite', title: 'Analyse de Sensibilité' },
-  { id: 'avantages-limites', title: 'Avantages et Limites' },
-  { id: 'bonnes-pratiques', title: 'Bonnes Pratiques' }
-];
+
 
 export default function DCFTheoriePage() {
   return (
@@ -59,7 +49,7 @@ export default function DCFTheoriePage() {
               <h3 className="text-lg font-semibold text-red-800 mb-3">Définition</h3>
               <p className="text-gray-700">
                 La méthode DCF (Discounted Cash Flow) évalue une entreprise en actualisant ses flux de trésorerie futurs 
-                à leur valeur présente, en utilisant un taux de rendement requis qui reflète le risque de l'investissement.
+                à leur valeur présente, en utilisant un taux de rendement requis qui reflète le risque de l&apos;investissement.
               </p>
             </div>
 
@@ -85,8 +75,8 @@ export default function DCFTheoriePage() {
                   Principe Clé
                 </h4>
                 <p className="text-gray-700 text-sm">
-                  La valeur d'une entreprise correspond à la somme actualisée de tous les flux de trésorerie 
-                  qu'elle générera dans le futur, reflétant sa capacité à créer de la valeur.
+                  La valeur d&apos;une entreprise correspond à la somme actualisée de tous les flux de trésorerie 
+                  qu&apos;elle générera dans le futur, reflétant sa capacité à créer de la valeur.
                 </p>
               </div>
             </div>
@@ -115,7 +105,7 @@ export default function DCFTheoriePage() {
                 title: 'Prévisions Financières',
                 description: 'Élaboration du business plan et projections sur 5-10 ans',
                 icon: TrendingUp,
-                details: ['Chiffre d\'affaires', 'Charges opérationnelles', 'Investissements', 'BFR']
+                details: ['Chiffre d&apos;affaires', 'Charges opérationnelles', 'Investissements', 'BFR']
               },
               {
                 step: '2',
@@ -227,12 +217,12 @@ export default function DCFTheoriePage() {
               <div className="bg-gray-50 rounded-xl p-6">
                 <h4 className="font-semibold text-gray-900 mb-3 flex items-center gap-2">
                   <Activity className="h-5 w-5 text-red-600" />
-                  Points d'Attention
+                  Points d&apos;Attention
                 </h4>
                 <ul className="space-y-2 text-sm text-gray-700">
                   <li className="flex items-start gap-2">
                     <CheckCircle className="h-4 w-4 text-green-600 mt-0.5 flex-shrink-0" />
-                    Utiliser l'EBITDA normalisé
+                    Utiliser l&apos;EBITDA normalisé
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle className="h-4 w-4 text-green-600 mt-0.5 flex-shrink-0" />
@@ -240,7 +230,7 @@ export default function DCFTheoriePage() {
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle className="h-4 w-4 text-green-600 mt-0.5 flex-shrink-0" />
-                    Anticiper l'évolution du BFR
+                    Anticiper l&apos;évolution du BFR
                   </li>
                 </ul>
               </div>
@@ -290,7 +280,7 @@ export default function DCFTheoriePage() {
               <div className="bg-white rounded-lg p-4 font-mono text-sm text-center">
                 WACC = (E/V × Re) + (D/V × Rd × (1-T))
                 <div className="text-xs text-gray-600 mt-2">
-                  E = Fonds propres | D = Dette | V = Valeur totale | Re = Coût des FP | Rd = Coût de la dette | T = Taux d'impôt
+                  E = Fonds propres | D = Dette | V = Valeur totale | Re = Coût des FP | Rd = Coût de la dette | T = Taux d&apos;impôt
                 </div>
               </div>
             </div>
@@ -308,7 +298,7 @@ export default function DCFTheoriePage() {
                   </div>
                   <ul className="text-xs space-y-1">
                     <li>• Rf : Taux sans risque</li>
-                    <li>• β : Bêta de l'entreprise</li>
+                    <li>• β : Bêta de l&apos;entreprise</li>
                     <li>• Rm : Rendement du marché</li>
                   </ul>
                 </div>
@@ -325,7 +315,7 @@ export default function DCFTheoriePage() {
                     <div className="text-xs font-mono">Rd = Taux moyen pondéré</div>
                   </div>
                   <ul className="text-xs space-y-1">
-                    <li>• Taux d'intérêt actuels</li>
+                    <li>• Taux d&apos;intérêt actuels</li>
                     <li>• Spread de crédit</li>
                     <li>• Échéancier de la dette</li>
                   </ul>
@@ -428,7 +418,7 @@ export default function DCFTheoriePage() {
               </h4>
               <p className="text-gray-700 text-sm mb-3">
                 La valeur terminale représente souvent 60-80% de la valeur totale. Une variation de 0,5% du taux de croissance 
-                ou du WACC peut impacter significativement l'évaluation.
+                ou du WACC peut impacter significativement l&apos;évaluation.
               </p>
               <div className="bg-white rounded-lg p-4">
                 <div className="text-xs font-mono">
@@ -464,7 +454,7 @@ export default function DCFTheoriePage() {
                   'Forte croissance initiale',
                   'Capex limités (logiciels)',
                   'BFR souvent négatif',
-                  'Taux d\'actualisation élevés'
+                  'Taux d&apos;actualisation élevés'
                 ]
               },
               {
@@ -473,7 +463,7 @@ export default function DCFTheoriePage() {
                 color: 'green',
                 adaptations: [
                   'Capex de renouvellement importants',
-                  'Cycles d\'investissement longs',
+                  'Cycles d&apos;investissement longs',
                   'BFR significatif',
                   'Sensibilité aux cycles économiques'
                 ]
@@ -550,7 +540,7 @@ export default function DCFTheoriePage() {
                   { param: 'Marge EBITDA', impact: 'Élevé', range: '±1%' },
                   { param: 'Capex/CA', impact: 'Moyen', range: '±0,5%' },
                   { param: 'BFR/CA', impact: 'Moyen', range: '±1%' },
-                  { param: 'Taux d\'impôt', impact: 'Faible', range: '±2%' }
+                  { param: 'Taux d&apos;impôt', impact: 'Faible', range: '±2%' }
                 ].map((item, index) => (
                   <div key={index} className="bg-white rounded-lg p-4">
                     <div className="font-medium text-sm mb-1">{item.param}</div>
@@ -568,7 +558,7 @@ export default function DCFTheoriePage() {
                   Analyse Univariée
                 </h4>
                 <p className="text-gray-700 text-sm mb-3">
-                  Test de l'impact d'une variable à la fois en maintenant les autres constantes.
+                  Test de l&apos;impact d&apos;une variable à la fois en maintenant les autres constantes.
                 </p>
                 <ul className="text-xs space-y-1">
                   <li>• Graphiques en tornade</li>
@@ -676,7 +666,7 @@ export default function DCFTheoriePage() {
                 category: 'Prévisions',
                 icon: TrendingUp,
                 practices: [
-                  'Baser les prévisions sur l\'historique et les tendances sectorielles',
+                  'Baser les prévisions sur l&apos;historique et les tendances sectorielles',
                   'Valider la cohérence entre croissance et investissements',
                   'Intégrer les cycles économiques et sectoriels',
                   'Documenter toutes les hypothèses'
@@ -697,7 +687,7 @@ export default function DCFTheoriePage() {
                 icon: CheckCircle,
                 practices: [
                   'Effectuer une analyse de sensibilité complète',
-                  'Comparer avec d\'autres méthodes d\'évaluation',
+                  'Comparer avec d&apos;autres méthodes d&apos;évaluation',
                   'Vérifier la cohérence des ratios financiers',
                   'Documenter les sources et méthodologies'
                 ]

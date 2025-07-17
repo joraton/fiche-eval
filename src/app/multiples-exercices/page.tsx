@@ -145,7 +145,7 @@ export default function MultiplesExercicesPage() {
                     Exercice 1 : RetailTech SA - E-commerce Européen
                   </h2>
                   <p className="text-gray-600">
-                    Plateforme e-commerce multi-marques présente dans 8 pays européens. Valorisation en vue d'une levée de fonds Série C.
+                    Plateforme e-commerce multi-marques présente dans 8 pays européens. Valorisation en vue d&apos;une levée de fonds Série C.
                   </p>
                 </div>
               </div>
@@ -154,7 +154,7 @@ export default function MultiplesExercicesPage() {
                 <h3 className="font-semibold text-blue-900 mb-2">Données Financières RetailTech SA (2024)</h3>
                 <div className="grid md:grid-cols-2 gap-4 text-sm">
                   <div>
-                    <p><strong>Chiffre d'Affaires :</strong> {retailTechData.ca} M€</p>
+                    <p><strong>Chiffre d&apos;Affaires :</strong> {retailTechData.ca} M€</p>
                     <p><strong>GMV :</strong> {retailTechData.gmv} M€</p>
                     <p><strong>EBITDA :</strong> {retailTechData.ebitda} M€</p>
                     <p><strong>EBIT :</strong> {retailTechData.ebit} M€</p>
@@ -265,7 +265,7 @@ export default function MultiplesExercicesPage() {
                   <div>
                     <h4 className="font-semibold text-green-600 mb-2">Traitement recommandé :</h4>
                     <ul className="space-y-1 text-sm">
-                      <li>• Exclusion d'ASOS (profil de risque différent)</li>
+                      <li>• Exclusion d&apos;ASOS (profil de risque différent)</li>
                       <li>• Pondération réduite Vinted (50%)</li>
                       <li>• Analyse de sensibilité avec/sans ManoMano</li>
                     </ul>
@@ -366,7 +366,7 @@ export default function MultiplesExercicesPage() {
                 <h3 className="font-semibold text-orange-900 mb-2">Données Financières BiotechMed SAS (2024)</h3>
                 <div className="grid md:grid-cols-2 gap-4 text-sm">
                   <div>
-                    <p><strong>Chiffre d'Affaires :</strong> {biotechMedData.ca} M€</p>
+                    <p><strong>Chiffre d&apos;Affaires :</strong> {biotechMedData.ca} M€</p>
                     <p><strong>Dépenses R&D :</strong> {biotechMedData.rd} M€</p>
                     <p><strong>EBITDA :</strong> {biotechMedData.ebitda} M€</p>
                     <p><strong>EBIT :</strong> {biotechMedData.ebit} M€</p>
@@ -414,7 +414,7 @@ export default function MultiplesExercicesPage() {
                 <div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-3">Questions</h3>
                   <div className="space-y-3 text-gray-700">
-                    <p><strong>Question 1 (4 points) :</strong> Proposez une segmentation pertinente de l'échantillon en 2-3 groupes avec pondération.</p>
+                    <p><strong>Question 1 (4 points) :</strong> Proposez une segmentation pertinente de l&apos;échantillon en 2-3 groupes avec pondération.</p>
                     <p><strong>Question 2 (5 points) :</strong> Calculez les multiples VE/CA et VE/EBITDA moyens par segment, traitez les outliers.</p>
                     <p><strong>Question 3 (3 points) :</strong> Le multiple VE/R&D est-il pertinent ? Quels autres facteurs qualitatifs ?</p>
                     <p><strong>Question 4 (6 points) :</strong> Proposez des ajustements pour : taille, croissance, géographie, pipeline, trésorerie.</p>
@@ -427,7 +427,7 @@ export default function MultiplesExercicesPage() {
             {/* Corrections Exercice 2 */}
             <div className="space-y-4">
               <CorrectionSection
-                title="Correction Question 1 - Segmentation de l'Échantillon"
+                title="Correction Question 1 - Segmentation de l&apos;Échantillon"
                 isVisible={visibleCorrections['ex2q1']}
                 onToggle={() => toggleCorrection('ex2q1')}
               >
@@ -479,7 +479,7 @@ export default function MultiplesExercicesPage() {
                     <h5 className="font-semibold text-yellow-800 mb-2">Traitement des outliers :</h5>
                     <ul className="space-y-1 text-sm text-yellow-700">
                       <li>• Penumbra : VE/EBITDA 45x → Ajusté à 40x (croissance exceptionnelle mais non durable)</li>
-                      <li>• Abiomed : Multiples élevés maintenus (technologie disruptive, barrières à l'entrée)</li>
+                      <li>• Abiomed : Multiples élevés maintenus (technologie disruptive, barrières à l&apos;entrée)</li>
                       <li>• Méthodologie : Winsorisation à 95% + analyse qualitative</li>
                     </ul>
                   </div>
@@ -509,7 +509,7 @@ export default function MultiplesExercicesPage() {
                           <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
                           <div>
                             <h5 className="font-semibold text-gray-900">Pipeline produits</h5>
-                            <p className="text-sm text-gray-600">Phases d'essais cliniques, probabilités de succès</p>
+                            <p className="text-sm text-gray-600">Phases d&apos;essais cliniques, probabilités de succès</p>
                           </div>
                         </div>
                         <div className="flex items-start gap-2">
@@ -525,7 +525,7 @@ export default function MultiplesExercicesPage() {
                           <div className="w-2 h-2 bg-purple-500 rounded-full mt-2 flex-shrink-0"></div>
                           <div>
                             <h5 className="font-semibold text-gray-900">Approbations réglementaires</h5>
-                            <p className="text-sm text-gray-600">FDA, CE, délais et risques d'approbation</p>
+                            <p className="text-sm text-gray-600">FDA, CE, délais et risques d&apos;approbation</p>
                           </div>
                         </div>
                         <div className="flex items-start gap-2">
@@ -600,7 +600,7 @@ export default function MultiplesExercicesPage() {
             transition={{ duration: 0.5, delay: 1.4 }}
             className="bg-gradient-to-r from-purple-50 to-blue-50 border border-purple-200 rounded-xl p-8 mb-8"
           >
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">Points Clés d'Apprentissage</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">Points Clés d&apos;Apprentissage</h2>
             
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
@@ -608,7 +608,7 @@ export default function MultiplesExercicesPage() {
                   <CheckCircle className="h-5 w-5 text-blue-600 flex-shrink-0 mt-1" />
                   <div>
                     <h4 className="font-semibold text-gray-900">Sélection des comparables</h4>
-                    <p className="text-gray-700 text-sm">La qualité de l'échantillon détermine la fiabilité de la valorisation</p>
+                    <p className="text-gray-700 text-sm">La qualité de l&apos;échantillon détermine la fiabilité de la valorisation</p>
                   </div>
                 </div>
                 
@@ -616,7 +616,7 @@ export default function MultiplesExercicesPage() {
                   <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0 mt-1" />
                   <div>
                     <h4 className="font-semibold text-gray-900">Traitement des outliers</h4>
-                    <p className="text-gray-700 text-sm">Analyser les causes avant d'exclure ou pondérer différemment</p>
+                    <p className="text-gray-700 text-sm">Analyser les causes avant d&apos;exclure ou pondérer différemment</p>
                   </div>
                 </div>
                 
@@ -634,7 +634,7 @@ export default function MultiplesExercicesPage() {
                   <CheckCircle className="h-5 w-5 text-purple-600 flex-shrink-0 mt-1" />
                   <div>
                     <h4 className="font-semibold text-gray-900">Multiples privilégiés</h4>
-                    <p className="text-gray-700 text-sm">VE/EBITDA généralement plus fiable que les multiples d'equity</p>
+                    <p className="text-gray-700 text-sm">VE/EBITDA généralement plus fiable que les multiples d&apos;equity</p>
                   </div>
                 </div>
                 
@@ -642,7 +642,7 @@ export default function MultiplesExercicesPage() {
                   <CheckCircle className="h-5 w-5 text-red-600 flex-shrink-0 mt-1" />
                   <div>
                     <h4 className="font-semibold text-gray-900">Fourchette de valorisation</h4>
-                    <p className="text-gray-700 text-sm">Toujours présenter une fourchette plutôt qu'une valeur unique</p>
+                    <p className="text-gray-700 text-sm">Toujours présenter une fourchette plutôt qu&apos;une valeur unique</p>
                   </div>
                 </div>
                 

@@ -26,7 +26,7 @@ const methods = [
     description: 'Valorisation par actualisation des flux futurs',
     principle: 'Valeur de rentabilité',
     formula: 'DCF = Σ (FCF / (1+WACC)^n) + Valeur terminale actualisée',
-    useCases: ['Entreprises en croissance', 'Sociétés de services', 'Projets d\'investissement', 'Valorisations stratégiques'],
+    useCases: ['Entreprises en croissance', 'Sociétés de services', 'Projets d&apos;investissement', 'Valorisations stratégiques'],
     advantages: ['Capture le potentiel futur', 'Méthode théoriquement robuste', 'Intègre la stratégie'],
     limits: ['Sensible aux hypothèses', 'Complexe à mettre en œuvre', 'Incertitude sur les prévisions']
   },

@@ -4,12 +4,12 @@ import BackToPlanButton from '@/components/content/BackToPlanButton';
 import SectionNavigation from '@/components/content/SectionNavigation';
 import ANNCTable, { ANNCCalculationTable } from '@/components/content/ANNCTable';
 import { motion } from 'framer-motion';
-import { Calculator, Building, Factory, TrendingUp, CheckCircle, AlertTriangle, Lightbulb, AlertCircle } from 'lucide-react';
+import { Calculator, Building, Factory, TrendingUp, AlertCircle } from 'lucide-react';
 
 // Données pour l'exemple 1 - Holding Immobilier
 const exemple1BilanActif = [
   { 'ACTIF': 'IMMOBILISATIONS', 'Valeur': '' },
-  { 'ACTIF': 'Frais d\'établissement', 'Valeur': '25' },
+  { 'ACTIF': 'Frais d&apos;établissement', 'Valeur': '25' },
   { 'ACTIF': 'Fonds commercial', 'Valeur': '150' },
   { 'ACTIF': 'Immeuble bureau (siège)', 'Valeur': '800' },
   { 'ACTIF': 'Immeuble locatif A', 'Valeur': '1 200' },
@@ -27,7 +27,7 @@ const exemple1BilanPassif = [
   { 'PASSIF': 'CAPITAUX PROPRES', 'Valeur': '2 850' },
   { 'PASSIF': 'Capital social', 'Valeur': '1 500' },
   { 'PASSIF': 'Réserves', 'Valeur': '950' },
-  { 'PASSIF': 'Résultat de l\'exercice', 'Valeur': '400' },
+  { 'PASSIF': 'Résultat de l&apos;exercice', 'Valeur': '400' },
   { 'PASSIF': 'PROVISIONS', 'Valeur': '80' },
   { 'PASSIF': 'Provision pour litiges', 'Valeur': '80' },
   { 'PASSIF': 'DETTES', 'Valeur': '1 770' },
@@ -133,7 +133,7 @@ const syntheseComparative = [
   { 'Critère': 'Écart ANCC/ANC', 'Holding Immobilier': '+40%', 'Entreprise Industrielle': '+17%' },
   { 'Critère': 'Principal driver', 'Holding Immobilier': 'Plus-values immobilières', 'Entreprise Industrielle': 'Réévaluation terrain/bâtiment' },
   { 'Critère': 'Complexité HB', 'Holding Immobilier': 'Faible', 'Entreprise Industrielle': 'Forte (crédit-bail, EENE)' },
-  { 'Critère': 'Risque d\'obsolescence', 'Holding Immobilier': 'Faible', 'Entreprise Industrielle': 'Fort (machines)' },
+  { 'Critère': 'Risque d&apos;obsolescence', 'Holding Immobilier': 'Faible', 'Entreprise Industrielle': 'Fort (machines)' },
   { 'Critère': 'Impôt latent', 'Holding Immobilier': 'Élevé (375 K€)', 'Entreprise Industrielle': 'Modéré (84 K€)' }
 ];
 
@@ -176,7 +176,7 @@ export default function ANNCExercicesPage() {
                 </div>
                 <div>
                   <h2 className="text-3xl font-bold text-gray-900">
-                    Exemple 1 : Holding Immobilier "Patrimoine Invest SA"
+                    Exemple 1 : Holding Immobilier &quot;Patrimoine Invest SA&quot;
                   </h2>
                   <p className="text-gray-600">
                     Société holding spécialisée dans l&apos;investissement immobilier et les participations. Évaluation en vue d&apos;une cession.
@@ -246,7 +246,7 @@ export default function ANNCExercicesPage() {
             </div>
             
             <ANNCCalculationTable
-              title="Calcul Détaillé de l'ANCC - Holding Immobilier"
+              title="Calcul Détaillé de l&apos;ANCC - Holding Immobilier"
               calculations={exemple1Calculs}
               finalAmount="3 990"
               colorScheme="blue"
@@ -290,7 +290,7 @@ export default function ANNCExercicesPage() {
                 </div>
                 <div>
                   <h2 className="text-3xl font-bold text-gray-900">
-                    Exemple 2 : Entreprise Industrielle "Meca Precision SAS"
+                    Exemple 2 : Entreprise Industrielle &quot;Meca Precision SAS&quot;
                   </h2>
                   <p className="text-gray-600">
                     PME industrielle spécialisée dans l&apos;usinage de précision. Évaluation pour transmission familiale.
@@ -359,7 +359,7 @@ export default function ANNCExercicesPage() {
             </div>
             
             <ANNCCalculationTable
-              title="Calcul Détaillé de l'ANCC - Entreprise Industrielle"
+              title="Calcul Détaillé de l&apos;ANCC - Entreprise Industrielle"
               calculations={exemple2Calculs}
               finalAmount="2 161"
               colorScheme="orange"

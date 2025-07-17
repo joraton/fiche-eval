@@ -119,7 +119,7 @@ export default function CoursePlan() {
           Plan du cours
         </h2>
         <p className="text-gray-600 text-base max-w-2xl mx-auto">
-          Parcours structuré pour maîtriser toutes les méthodes d'évaluation d'entreprise
+          Parcours structuré pour maîtriser toutes les méthodes d&apos;évaluation d&apos;entreprise
         </p>
       </motion.div>
       
